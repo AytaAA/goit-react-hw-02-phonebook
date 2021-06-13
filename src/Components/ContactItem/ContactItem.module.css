@@ -1,0 +1,25 @@
+.list_item {
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.delete_btn {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+    border: 0.5px solid grey;
+    margin-left: 10px;
+    justify-content: left;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.delete_btn:hover,
+.delete_btn:focus {
+    color: rgb(240, 58, 240);
+}
